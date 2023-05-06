@@ -1,126 +1,122 @@
 body * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 600;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-    background-color: black;
+  background-color: black;
 }
 
 h1 {
-    color: rgb(20, 172, 20);
-    text-align: center;
-    font-size: 40px;
-    margin: 10px auto;
+  color: rgb(20, 172, 20);
+  text-align: center;
+  font-size: 40px;
+  margin: 10px auto;
 }
 
 h2 {
-    color: rgb(20, 172, 20);
-    text-align: center;
-    font-size: 40px;
-    margin: 10px auto;
+  color: rgb(20, 172, 20);
+  text-align: center;
+  font-size: 40px;
+  margin: 10px auto;
 }
 
-  .trivia-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    height: 80px;
-  }
-  
-  .trivia-button {
-    padding: 15px 30px;
-    margin: 1px 10px;
-    font-size: 20px;
-    background-color: #14ac14;
-    color: black;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .trivia-button:hover {
-    background-color: #18d518 ;
-    color: black;
-  }
-  
-  .question-div {
-    display: none;
-    width: 80%;
-    max-width: 85%;
-    max-height: 450px;
-    margin: 10px auto;
-    padding: 20px 5px;
-    background-color: #14ac14;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  }
+.trivia-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  height: 80px;
+}
 
-  #question {
-    margin-top: 10px;
-    color: black;
-  }
+.trivia-button {
+  padding: 15px 30px;
+  margin: 1px 10px;
+  font-size: 20px;
+  background-color: #14ac14;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
 
-  #result {
-    color: black;
-    background-color: #14ac14;
-    width: 500px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 10px;
-    padding-top: 19px;
-    position: absolute;
-    left: 32%;
-    bottom: 40%;
-    display: none;
-  }
+.trivia-button:hover {
+  background-color: #18d518;
+  color: black;
+}
 
-  #answers {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    
-  }
+.question-div {
+  display: none;
+  width: 80%;
+  max-width: 85%;
+  max-height: 450px;
+  margin: 10px auto;
+  padding: 20px 5px;
+  background-color: #14ac14;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
 
-  #answers button {
-    width: 30%;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 4px;
-    margin: 5px 0px;
-    cursor: pointer;
-  }
+#question {
+  margin-top: 10px;
+  color: black;
+}
 
-  #reiniciar {
-    display: none;
-   position: absolute;
-   bottom: 100px;
-   left: 44%;
-   width: 150px;
-   height: 50px;
-   font-size: x-large;
-   font-weight: 600;
-   background-color: #14ac14;
-   color: black;
-   border-radius: 10px;
-   border-style: hidden;
-   cursor: pointer;
-  }
+#result {
+  color: black;
+  background-color: #14ac14;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding-top: 19px;
+  position: absolute;
+  left: 32%;
+  bottom: 40%;
+  display: none;
+}
 
-  #reiniciar:hover {
-    background-color: #18d518 ;
-    color: black;
-  }
-  
-  
-  
-  
+#answers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+#answers button {
+  width: 30%;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 5px 0px;
+  cursor: pointer;
+  border-style: hidden;
+}
+
+#reiniciar {
+  display: none;
+  position: absolute;
+  bottom: 100px;
+  left: 44%;
+  width: 150px;
+  height: 50px;
+  font-size: x-large;
+  font-weight: 600;
+  background-color: #14ac14;
+  color: black;
+  border-radius: 10px;
+  border-style: hidden;
+  cursor: pointer;
+}
+
+#reiniciar:hover {
+  background-color: #18d518;
+  color: black;
+}

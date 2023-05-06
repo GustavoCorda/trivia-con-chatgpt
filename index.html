@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="es ar en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>trivia</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>¡A jugar!</h1>
     <h2>Elige una opción</h2>
 
-    
-
     <div class="trivia-buttons">
-        <button id="trivia-button1" class="trivia-button" onclick="centerButton('trivia-button1')">Trivia 1</button>
-        <button id="trivia-button2" class="trivia-button" onclick="centerButton('trivia-button2')">Trivia 2</button>
-        <button id="trivia-button3" class="trivia-button" onclick="centerButton('trivia-button3')">Trivia 3</button>
-        
-      </div>
-      
-      <div id="question-div" class="question-div">
-        <h2 id="question"></h2>
-        <ul id="answers"></ul>
-       
-      </div>
-      
-          
-      <div id="result"></div>
+      <button
+        id="trivia-button1"
+        class="trivia-button"
+        onclick="centerButton('trivia-button1')"
+      >
+        Trivia 1
+      </button>
+      <button
+        id="trivia-button2"
+        class="trivia-button"
+        onclick="centerButton('trivia-button2')"
+      >
+        Trivia 2
+      </button>
+      <button
+        id="trivia-button3"
+        class="trivia-button"
+        onclick="centerButton('trivia-button3')"
+      >
+        Trivia 3
+      </button>
+    </div>
 
-      <a href="./index.html">
-      <button id="reiniciar" onclick="regresarInicio()" >Reintentar</button></a>
+    <div id="question-div" class="question-div">
+      <h2 id="question"></h2>
+      <ul id="answers"></ul>
+    </div>
 
+    <div id="result"></div>
 
-    
+    <a href="./index.html">
+      <button id="reiniciar" onclick="regresarInicio()">Reintentar</button></a
+    >
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
